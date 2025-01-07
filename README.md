@@ -323,8 +323,8 @@
 
     <!-- Payment Section -->
     <div class="button-section">
-      <button id="khqrButton" onclick="KHQRPay()" disabled>Pay with KHQR</button>
-      <button id="abaButton" onclick="ABAPay()" disabled>Pay with ABA Pay</button>
+      <button id="khqrButton" onclick="payWithKHQR()" disabled>KHQR</button>
+      <button id="abaButton" onclick="payWithABAPay()" disabled>ABA PAY</button>
     </div>
 
     <!-- Footer Section -->
